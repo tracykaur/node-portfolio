@@ -1,0 +1,19 @@
+{
+  "name": "Node-Portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon server.js -e js,pug",
+    "start": "node server.js" 
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "nodemon": "^1.12.1",
+    "pug": "^2.0.0-rc.4",
+    "xpress": "^2.4.6"
+  }
+}
